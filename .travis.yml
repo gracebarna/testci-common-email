@@ -1,6 +1,6 @@
-language: java
-
 dist: xenial
+
+language: java
 
 jdk:
   - openjdk8
