@@ -1,13 +1,11 @@
-{
-  "language": "java",
-  "os": [
-    "linux"
-  ],
-  "dist": "xenial",
-  "jdk": [
-    "-oraclejdk8 -openjdk7"
-  ],
-  "script": [
-    "-mvn clean install"
-  ]
-}
+language: java
+
+os: linux
+
+dist: xenial
+
+jdk:
+    -oraclejdk8
+    -openjdk7
+    
+script: -mvn clean install
