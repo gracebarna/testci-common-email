@@ -5,8 +5,5 @@ dist: xenial
 jdk:
   - oraclejdk8
   - oraclejdk9
-  - openjdk10
-  - openjdk11
-  - openjdk12
     
-script: -mvn clean install
+script: mvn clean install
