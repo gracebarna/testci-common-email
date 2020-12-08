@@ -3,7 +3,11 @@ language: java
 dist: xenial
 
 jdk:
+  - openjdk8
+  - openjdk11
+  - openjdk-ea
   - oraclejdk8
-  - oraclejdk9
+  - oraclejdk11
+  - oraclejdk-ea
     
 script: mvn clean install
