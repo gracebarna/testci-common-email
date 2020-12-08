@@ -11,4 +11,4 @@ jdk:
   - openjdk11
   - openjdk12
     
-script: -mvn clean install
+script: mvn clean install
