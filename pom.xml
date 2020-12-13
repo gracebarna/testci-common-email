@@ -291,6 +291,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
+               <version>3.0.0-M9</version>
                 <configuration>
                     <!-- exclude test case support classes -->
                     <excludes>
@@ -299,7 +300,6 @@
                         <exclude>**/Abstract*Test.java</exclude>
                     </excludes>
                 </configuration>
-               <version>3.0.0-M9</version>
             </plugin>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
